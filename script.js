@@ -8,7 +8,7 @@ let help;
 
 //taking value from user
 function setCount(){
-    if(val.value > 0){
+    if(val.value >= 0){
         para.innerHTML = val.value;
         para.innerHTML = val.value--;
     }
