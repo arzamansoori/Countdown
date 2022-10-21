@@ -1,6 +1,6 @@
 ![COUNTDOWN](https://img.shields.io/badge/PROJECT-COUNTDOWN-%23D291BC)
 
-Stopwatch website is created with using HTML, CSS(styling yet to be done) and JavaScript.
+Countdown website is created with using HTML, CSS(styling yet to be done) and JavaScript.
 
 ## TABLE OF CONTENTS
 #
