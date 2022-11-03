@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,19 @@
     <link rel="stylesheet" href="/style.css">
     <title>COUNTDOWN</title>
 </head>
+
 <body>
-    <input type="number" id="number" class="result">
-    <button id="start">START</button>
-    <button id="stop">STOP</button>
-    <button id="reset">RESET</button>
-    <p id="count"></p>
-    <!-- <button>STOP</button> -->
+    <div>
+        <p class="heading">COUNTDOWN</p>
+    </div>
+    <div class="middle">
+        <input type="number" id="number" class="result">
+        <button id="start" class="btn">START</button>
+         <button id="stop" class="btn">STOP</button>
+         <button id="reset" class="btn">RESET</button>
+    </div>
+    <p id="count" class="bottom"></p>
     <script src="/script.js"></script>
 </body>
+
 </html>
