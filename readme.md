@@ -25,5 +25,5 @@ To use Countdown website or to see the project. Please click on the deployed lin
 [COUNTDOWN](https://countdownwebsite.netlify.app/)
 <br>
 <br>
-<!-- ![STOPWATCH Website Image](./stopwatch.png) -->
+![COUNTDOWN Website Image](./countdown.png)
 
