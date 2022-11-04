@@ -32,7 +32,7 @@ stopE.addEventListener("click", ()=>{
 
 //reset button
 reset.addEventListener("click",()=>{
-    val.value= " ";
+    val.value= 0;
     val.style.display = "inline";
 })
 
