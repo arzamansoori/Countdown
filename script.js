@@ -25,6 +25,7 @@ function startCount(){
 btn.addEventListener("click", () => {
     val.style.display = "none";
     startCount();
+    btn.style.display = "none";
 })
 
 //stop button
@@ -38,9 +39,10 @@ stopE.addEventListener("click", ()=>{
 
     reset.addEventListener("click",()=>{
         val.value= " ";
-        // para.innerHTML = 0;
+        para.innerHTML = 0;
         val.style.display = "inline";
         reset.style.display = "none";
+        btn.style.display = "inline";
     })
     
 })
