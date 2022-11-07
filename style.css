@@ -25,6 +25,7 @@ body{
     background-color: #0078AA;
     border: 2px solid #ABD9FF;
     border-radius: 7px;
+    cursor: pointer;
 }
 .bottom{
     color: #2D6187;

@@ -32,6 +32,7 @@ btn.addEventListener("click", () => {
 //stop button
 stopE.addEventListener("click", ()=>{
     clearInterval(help);
+    stopE.style.display = "none";
     const reset = document.createElement("button");
     const resetTNode = document.createTextNode("RESET");
     reset.appendChild(resetTNode)
