@@ -15,7 +15,7 @@ function setCount(){
         para.innerHTML = val.value--;
     }
 }
-
+stopE.style.display = "none";
 //starting interval
 function startCount(){
      help = setInterval(setCount, 1000)
@@ -26,6 +26,7 @@ btn.addEventListener("click", () => {
     val.style.display = "none";
     startCount();
     btn.style.display = "none";
+    stopE.style.display = "inline";
 })
 
 //stop button
@@ -43,6 +44,7 @@ stopE.addEventListener("click", ()=>{
         val.style.display = "inline";
         reset.style.display = "none";
         btn.style.display = "inline";
+        stopE.style.display = "none";
     })
     
 })
